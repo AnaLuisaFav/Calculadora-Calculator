@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+body {
+	background-color: #add8e6;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	margin: 0px;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-image: url(math5.png);
+	background-size: 1200px;
+}
+
+.container {
+	display: flex;
+	border-radius: 10px;
+	align-items: center;
+	background-color: #10a7d9;
+	box-shadow: 1px 1px 5px #295eaf;
+}
+
+.calculator {
+	gap: 5px;
+	display: grid;
+	grid-template-columns: 65px 65px 65px 65px;
+  	grid-template-rows: 55px 55px 55px 55px 55px 55px;
+  	padding: 20px 10px;
+}
+
+input {
+	color: #353537;
+	margin: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	grid-column-start: 1;
+  	grid-column-end: 5;
+  	padding: 10px;
+	text-align: right;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+
+.btnstyle {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+    margin: 5px;
+    color: white;
+    border-color: #295eaf;
+    background-color: #295eaf;
+    box-shadow: 1px 1px 1px #295eaf;
+    border-radius: 5px;
+}
+
+
+.btnstyle:hover {
+	background-color: #2f2caa;
+	transition: all ease-in-out 200ms;
+}
+
+.c {
+	grid-column-start: 1;
+  	grid-column-end: 3;
+}
+
+.zero {
+	grid-column-start: 1;
+  	grid-column-end: 3;
+}
+
+.igual {
+	grid-column-start: 4; 
+	grid-row-start: 5;
+	grid-row-end: 7;
+	line-height: 90px;
+}
