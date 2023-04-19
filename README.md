@@ -8,7 +8,7 @@
 
 *<h1>Sobre</h1>About*
 
-Projeto de início de aprendizado em JavaScript, no curso de Desenvolvimento Web da Udemy 🙂 
+Projeto de início de aprendizado em JavaScript, no curso de Desenvolvimento Web da Udemy. 🙂 
 
 *Beginning to learn JavaScript, with a calculator! Web Development Course in Udemy.* 🙂 
 
